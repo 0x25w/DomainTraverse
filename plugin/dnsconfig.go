@@ -1,6 +1,8 @@
 package plugin
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //生成一个新的[]SubDomains
 func MixUp(Info *DomainInfo) {
@@ -12,20 +14,5 @@ func MixUp(Info *DomainInfo) {
 	}
 	fmt.Print("子域名数为：")
 	fmt.Print(len(Info.SubDomains))
-	fmt.Print(" , 正在解析子域...")
-}
-
-//设置DNS配置
-func SetDnsConfig() {
-
-}
-
-//发送DNS
-func SendDnsReq() {
-
-}
-
-//接收DNS并输出
-func RecAndOutput() {
-
+	fmt.Println(" , 正在解析子域...")
 }
