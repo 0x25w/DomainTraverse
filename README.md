@@ -1,6 +1,9 @@
 # DomainTraverse
 A Tool To Traverse Domains
 
+![image](https://user-images.githubusercontent.com/72005182/148521368-be7d466d-87e9-4949-b545-10d544f8c5a9.png)
+
+
 ⣿⣿⣿⣿⣿⣿⢟⣡⣴⣶⣶⣦⣌⡛⠟⣋⣩⣬⣭⣭⡛⢿⣿⣿⣿⣿
 ⣿⣿⣿⣿⠋⢰⣿⣿⠿⣛⣛⣙⣛⠻⢆⢻⣿⠿⠿⠿⣿⡄⠻⣿⣿⣿
 ⣿⣿⣿⠃⢠⣿⣿⣶⣿⣿⡿⠿⢟⣛⣒⠐⠲⣶⡶⠿⠶⠶⠦⠄⠙⢿
