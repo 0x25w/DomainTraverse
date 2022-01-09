@@ -15,4 +15,6 @@ A Tool To Traverse Domains
         -l dic.txt     |    导入词典
 ```
 
-记录第一个自己写的工具...
+golang 域名爆破 子域名爆破 
+
+subdomains brute
