@@ -23,7 +23,9 @@ func WriteFile(str string, filename string) {
 
 func Output(Info *DomainInfo) {
 	for _, str := range Info.Dst {
-		WriteFile(str, "result.txt")
+		if len(str) > 1 {
+			WriteFile(str[:len(str)-1], "result.txt")
+		}
 	}
 	fmt.Println("Success!")
 }
