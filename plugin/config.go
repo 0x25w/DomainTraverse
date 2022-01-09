@@ -1,9 +1,6 @@
 package plugin
 
-import (
-	"github.com/miekg/dns"
-	"sync"
-)
+import "github.com/miekg/dns"
 
 //只需要解析两个参数，然后分别存进字符串
 type DomainInfo struct {
@@ -18,6 +15,4 @@ type DomainInfo struct {
 	Thread     int
 	Client     *dns.Conn
 	Dst        []string
-	TmpStr     string
-	Wg         *sync.WaitGroup
 }
